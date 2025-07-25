@@ -1,18 +1,28 @@
-# Miscellaneous
-*.class
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 1af63d9 (first commit)
->>>>>>> 73e9368 (first commit local)
-*.lock
+# Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+build/
+.idea/
+.vscode/
+android/.gradle/
+android/local.properties
+
+# macOS
+.DS_Store
+
+# Logs
 *.log
+
+# Other
+*.lock
 *.pyc
 *.swp
-.buildlog/
 .history
+.buildlog/
+
 
 
 
@@ -124,6 +134,7 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 <<<<<<< HEAD
+<<<<<<< HEAD
 !/dev/ci/**/Gemfile.lock
 =======
 <<<<<<< HEAD
@@ -177,3 +188,6 @@ app.*.map.json
 >>>>>>> ff44293 (first commit)
 >>>>>>> 1af63d9 (first commit)
 >>>>>>> 73e9368 (first commit local)
+=======
+!/dev/ci/**/Gemfile.lock
+>>>>>>> 66666da2bca2d8a976e9103b6f06075a7c26e8d0
